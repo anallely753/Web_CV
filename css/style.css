@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: black;
+  }
+.fixed{
+  position: fixed;
+}
+
+#frase{
+  text-align: center;
+}
+a{
+  color:#ffdccd;
+  font-size: 20px;
+}
+.FI{
+  font-size: 25px;
+  color:black;
+  font-family: 'Advent Pro';
+  padding: 0px;
+}
+
+.trans{
+  background-color: #A4EDE6;
+  animation-name: cuadrado;
+  animation-duration: 5s; 
+  animation-iteration-count: 1;
+}
+
+@keyframes cuadrado{ 
+  0%{background-color: #02CCBA;width: 100px;} 
+  25%{background-color: #53DCD0;width: 195px;} 
+  50%{background-color: #53DCD0;width: 300px;}
+  100%{background-color: #A4EDE6;width: 800px;}
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+  float: center;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Aclonica';
+  padding-left: 15px;
+  color:#ffdccd;
+}
+.cards{
+  background-color: #CEF19E;
+}
+  main {
+    flex: 1 0 auto;
+  }
+.menus{
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+h1{
+  color:black;
+	background-color: white;
+	text-align: center;
+font-family: 'Aclonica';
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  padding: 10px;
+ 
+
+}
+  h5{
+	font-family: 'Advent Pro';
+  }
+  h3{
+  	color:#ffdccd;
+  	font-family: 'Aclonica', serif;
+  	font-size: 30px;
+  	margin: 0px;
+  	text-align: center;
+  	padding-top: 0px;
+  }
+
+  .logo{
+  padding: 30px;
+  }
+
+  .bar{
+  	background-color: gray;
+  	text-align: right;
+  	margin: 0px;
+  	padding: 0px;
+  }
+   
+  .black{
+  	background-color: black;
+  }
+
+ .blacks{
+  margin: 0px;
+  padding: 0px;
+ }
+
+
+  .colf{
+  	margin: 0px;
+  	padding: 0px;
+  	text-align: left;
+  	align-content: left;
+  }
+
+.gray{
+	background-color: gray;
+	max-height: 100%;
+
+}
+
+.whites{
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.hey{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.bluee{
+	background-color:#ffdccd;
+  padding: 0px
+  margin:0px;
+}
+
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+
+.col{
+	padding: 0px;
+	margin: 0px;
+}
+
+.texto{
+  color:black;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Advent Pro';
+}
+
+p{
+	color: #96b2be;
+}
+
+.menu{
+	margin-top: 10px;
+	background-color: black;
+	align-content: right;
+	color:white;
+	text-align: right;
+
+
+}
+
+.icons1{
+	float: center;
+	text-align: center;
+	align-content: center;
+  color: white;
+  padding-left: 5px;
+  margin: 0px;
+}
+
+.grayy{
+	background-color: black;
+  font-family: 'Bubblegum Sans';font-size: 50px;
+}
+
