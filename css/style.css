@@ -8,6 +8,10 @@ body {
   position: fixed;
 }
 
+.fixed a{
+  font-size: 4vh;
+}
+
 #frase{
   text-align: center;
 }
@@ -125,6 +129,8 @@ font-family: 'Aclonica';
 .hey{
 	padding: 0px;
 	margin: 0px;
+  height: 40vh;
+  float: center;
 }
 
 
